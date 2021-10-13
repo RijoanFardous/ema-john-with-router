@@ -9,8 +9,8 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 function App() {
   return (
     <div>
-      <Header></Header>
       <BrowserRouter>
+        <Header></Header>
         <Switch>
           <Route exact path="/">
             <Shop></Shop>
